@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Check number is a power of 2"
+title:  "Check if number is a power of 2"
 date:   2016-03-10 3:55:35 +0530
 categories: jekyll update
 ---
