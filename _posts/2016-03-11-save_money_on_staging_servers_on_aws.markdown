@@ -62,6 +62,7 @@ Also set up a cron task in the jenkins server which calls the above script at 8 
 
 I hope something from the above random shit is helpful. Adios.
 
-
 [aws-ec2-cli-documentation]: http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/set-up-ec2-cli-linux.html#setting_up_ec2_command_linux
+
+{% include comments.html %}
 
