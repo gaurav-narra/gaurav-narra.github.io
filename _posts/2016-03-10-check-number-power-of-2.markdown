@@ -27,3 +27,4 @@ If u want to know more about Collatz conjecture, check out the [youtube video][c
 [collatz-conjecture-wiki]: https://en.wikipedia.org/wiki/Collatz_conjecture
 [collatz-conjecture-youtube]: https://www.youtube.com/watch?v=m4CjXk_b8zo
 
+{% include comments.html %}
