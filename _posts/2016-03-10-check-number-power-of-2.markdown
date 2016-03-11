@@ -2,7 +2,7 @@
 layout: post
 title:  "Check if number is a power of 2"
 date:   2016-03-10 3:55:35 +0530
-categories: jekyll update
+categories: mathematics algorithms
 ---
 The intution for this solution was when i was trying my hands on the [Collatz conjecture][collatz-conjecture-wiki], which basically is to get the series for a given number(n) by doing `n/2` if even and `3n+1` if odd. Its found that the series always stops with the continuos sequence `4-2-1`. For example consider the series for 21 would be `21-64-32-16-8-4-2-1-4-2-1...`. There is no proof for this but for the largest number they could compute they found that the sequence always ends with `4-2-1`. So how is this related to even power of 2, getting there, patience.
 
