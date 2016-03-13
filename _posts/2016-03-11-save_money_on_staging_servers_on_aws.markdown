@@ -52,13 +52,13 @@ done
 {%endhighlight%}
 
 
-Copied the following shell script to the jenkins server and created a new job with option parameter start/stop and build with the above shell script and argument as the `action start/stop` selected from the parameter.
+Copied above script to the jenkins server and created a new job with option parameter start/stop and build it with the above shell script and argument as the `action start/stop` selected from the parameter.
 
 {% highlight ruby %}
   /var/lib/jenkins/stop_start_server.sh $ACTION
 {%endhighlight%}
 
-Also set up a cron task in the jenkins server which calls the above script at 8 pm and shuts the servers, if any one is using them post 8 pm then they would go to jenkins UI and start the staging environment.
+Also have set up a cron task in the jenkins server which calls the above script at 8 pm and shuts the servers. If any one is using them post 8 pm then they would go to jenkins UI and start the staging environment.
 
 I hope something from the above random shit is helpful. Adios.
 
